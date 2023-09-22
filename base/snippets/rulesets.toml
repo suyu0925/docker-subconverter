@@ -3,6 +3,14 @@ group = "🎯 全球直连"
 ruleset = "rules/LocalAreaNetwork.list"
 
 [[rulesets]]
+group = "💊 仅对西方"
+ruleset = "rules/Western.list"
+
+[[rulesets]]
+group = "㊙️ 自定义服务"
+ruleset = "rules/Customized.list"
+
+[[rulesets]]
 group = "Ⓜ️ 微软服务"
 ruleset = "rules/MSServices.list"
 

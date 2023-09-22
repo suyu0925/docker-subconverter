@@ -1,0 +1,3 @@
+# Western
+# 仅对西方的服务，尽量使用美国节点
+DOMAIN-SUFFIX,openai.com

@@ -11,7 +11,7 @@ docker run --name subconverter --restart always -d -p 25500:25500/tcp lckof/subc
 
 ```bash
 docker buildx build --platform linux/amd64 -t subconverter --load .
-docker run --name subconverter --rm subconverter
+docker run --name subconverter --rm -p 25500:25500/tcp subconverter
 ```
 
 ## Publish

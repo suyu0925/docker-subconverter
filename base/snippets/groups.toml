@@ -1,12 +1,47 @@
 [[custom_groups]]
+name = "㊙️ 自定义服务"
+type = "select"
+rule = [
+    "[]🔰 节点选择",
+    "[]🎯 全球直连"
+]
+
+[[custom_groups]]
+name = "💊 仅对西方"
+type = "select"
+rule = [
+    "[]🦅 美国最速节点",
+    ".*"
+]
+
+[[custom_groups]]
 name = "🔰 节点选择"
 type = "select"
-rule = ["[]♻️ 自动选择", "[]🎯 全球直连", ".*"]
+rule = [
+    "[]🇭🇰 香港最速节点",
+    "[]♻️ 自动选择", 
+    "[]🎯 全球直连", 
+    ".*"
+]
 
 [[custom_groups]]
 name = "♻️ 自动选择"
 type = "url-test"
 rule = [".*"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+
+[[custom_groups]]
+name = "🇭🇰 香港最速节点"
+type = "url-test"
+rule = ["(香港|HK|Hong Kong)"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+
+[[custom_groups]]
+name = "🦅 美国最速节点"
+type = "url-test"
+rule = ["(美国|US)"]
 url = "http://www.gstatic.com/generate_204"
 interval = 300
 
