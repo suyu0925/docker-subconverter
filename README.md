@@ -3,8 +3,14 @@ dockerfile for subconverter
 
 ## Usage
 
+first, run subconverter service in docker container:
 ```bash
 docker run --name subconverter --restart always -d -p 25500:25500/tcp lckof/subconverter
+```
+
+then, use subscribe url in clash: 
+```bash
+http://localhost:25500/sub?target=clash&url=%YOUR_SUBSCRIBE_URL%
 ```
 
 ## Debug for single platform
