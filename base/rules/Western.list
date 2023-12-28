@@ -1,3 +1,5 @@
 # Western
 # 仅对西方的服务，尽量使用美国节点
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,bing.com
