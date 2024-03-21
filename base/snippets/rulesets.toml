@@ -3,8 +3,8 @@ group = "🎯 全球直连"
 ruleset = "rules/LocalAreaNetwork.list"
 
 [[rulesets]]
-group = "💊 仅对西方"
-ruleset = "rules/Western.list"
+group = "🤖 ChatGPT及其他AI"
+ruleset = "rules/ChatGPT.list"
 
 [[rulesets]]
 group = "㊙️ 自定义服务"

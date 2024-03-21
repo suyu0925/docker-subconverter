@@ -1,0 +1,7 @@
+# ChatGPT
+# ChatGPT等，尽量使用美国节点
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bard.google.com
