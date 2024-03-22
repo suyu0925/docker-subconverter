@@ -7,7 +7,7 @@ rule = [
 ]
 
 [[custom_groups]]
-name = "💊 仅对西方"
+name = "🤖 ChatGPT及其他AI"
 type = "select"
 rule = [
     "[]🦅 美国最速节点",
