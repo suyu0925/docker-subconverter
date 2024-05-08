@@ -1,6 +1,8 @@
 # Misc
 DOMAIN-SUFFIX,gov.cn
 DOMAIN-SUFFIX,gitee.com
+DOMAIN-SUFFIX,ciciai.com
+DOMAIN-SUFFIX,doubao.com
 
 # China Area Network
 DOMAIN-SUFFIX,flyert.com
