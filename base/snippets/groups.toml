@@ -19,6 +19,8 @@ name = "🔰 节点选择"
 type = "select"
 rule = [
     "[]🇭🇰 香港最速节点",
+    "[]🇯🇵 日本最速节点",
+    "[]🦅 美国最速节点",
     "[]♻️ 自动选择", 
     "[]🎯 全球直连", 
     ".*"
@@ -35,6 +37,13 @@ interval = 300
 name = "🇭🇰 香港最速节点"
 type = "url-test"
 rule = ["(香港|HK|Hong Kong)"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300
+
+[[custom_groups]]
+name = "🇯🇵 日本最速节点"
+type = "url-test"
+rule = ["(日本|JP|Japan)"]
 url = "http://www.gstatic.com/generate_204"
 interval = 300
 
