@@ -41,3 +41,22 @@ If dns resolve failed, try [use host network mode](https://docs.docker.com/netwo
 ```bash
 docker run --name subconverter --restart always -d --network host lckof/subconverter
 ```
+
+## Configuration
+
+in `pref.toml`: 
+```toml
+[[rulesets]]
+import = "snippets/rulesets.toml"
+```
+
+in `snippets/rulesets.toml`:
+```toml
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "rules/DivineEngine/Surge/Ruleset/China.list"
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "rules/NobyDa/Surge/Download.list"
+```
