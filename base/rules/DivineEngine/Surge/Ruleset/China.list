@@ -1,3 +1,7 @@
+# Custom
+# > aliyun cloud
+IP-CIDR,47.89.233.0/24,no-resolve
+
 # Misc
 DOMAIN-SUFFIX,gov.cn
 DOMAIN-SUFFIX,gitee.com
