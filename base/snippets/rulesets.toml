@@ -80,10 +80,6 @@ ruleset = "rules/NobyDa/Surge/Download.list"
 
 [[rulesets]]
 group = "🎯 全球直连"
-ruleset = "rules/ACL4SSR/Clash/ChinaDomain.list"
-
-[[rulesets]]
-group = "🎯 全球直连"
 ruleset = "[]GEOIP,CN"
 
 [[rulesets]]
