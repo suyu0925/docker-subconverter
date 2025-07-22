@@ -160,7 +160,9 @@ DOMAIN-SUFFIX,sogou.com
 DOMAIN-SUFFIX,sogoucdn.com
 # > Steam
 DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steamstatic.com
+# 只保留steamcontent.com这一个用来下载游戏的域名不使用代理
+# DOMAIN-SUFFIX,steamstatic.com
+# DOMAIN-SUFFIX,steampowered.com
 # > Tencent
 USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
